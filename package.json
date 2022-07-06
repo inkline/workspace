@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "postinstall": "git submodule update --init --recursive",
+    "postinstall": "npm run init",
+    "init": "git submodule update --init --recursive",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint"
