@@ -1,0 +1,21 @@
+[submodule "packages/inkline"]
+	path = packages/inkline
+	url = git@github.com:inkline/inkline.git
+[submodule "packages/inkline.io"]
+	path = packages/inkline.io
+	url = https://github.com/inkline/inkline.io
+[submodule "packages/unified"]
+	path = packages/unified
+	url = git@github.com:inkline/unified.git
+[submodule "packages/config"]
+	path = packages/config
+	url = git@github.com:inkline/config.git
+[submodule "packages/cli"]
+	path = packages/cli
+	url = git@github.com:inkline/cli.git
+[submodule "packages/plugin"]
+	path = packages/plugin
+	url = git@github.com:inkline/plugin.git
+[submodule "packages/nuxt-module-inkline"]
+	path = packages/nuxt-module-inkline
+	url = git@github.com:inkline/nuxt-module-inkline.git
